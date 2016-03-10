@@ -1,0 +1,7 @@
+/GdNet.Layers.AutoMapper/obj
+/GdNet.Layers.AutoMapper/bin
+/NuGet.GdNet.Layers.AutoMapper/obj
+/NuGet.GdNet.Layers.AutoMapper/bin
+/*.suo
+/NuGet.GdNet.Layers.AutoMapper/*.nupkg
+/NuGet.GdNet.Layers.AutoMapper/*.bak
