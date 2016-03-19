@@ -44,21 +44,19 @@
     </Reference>
     <Reference Include="GdNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Common.1.6.0\lib\GdNet.Common.dll</HintPath>
+      <HintPath>..\packages\GdNet.Common.1.7.0\lib\GdNet.Common.dll</HintPath>
     </Reference>
     <Reference Include="GdNet.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Domain.2.0.0\lib\GdNet.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.Domain.2.0.2\lib\GdNet.Domain.dll</HintPath>
     </Reference>
-    <Reference Include="GdNet.Layers.Dtos, Version=1.0.5858.32494, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GdNet.Layers.Dtos.1.1.0\lib\GdNet.Layers.Dtos.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="GdNet.Layers.Dtos, Version=1.0.5914.27158, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\GdNet.Layers.Dtos.2.0.0\lib\GdNet.Layers.Dtos.dll</HintPath>
     </Reference>
-    <Reference Include="Mapping.AutoMapper">
-      <HintPath>..\packages\Mapping.AutoMapper.1.0.0\lib\Mapping.AutoMapper.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapping.AutoMapper.Custom">
-      <HintPath>..\packages\Mapping.AutoMapper.1.0.0\lib\Mapping.AutoMapper.Custom.dll</HintPath>
+    <Reference Include="Mapping.AutoMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Mapping.AutoMapper.1.1.1\lib\Mapping.AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="Mapping.Common">
       <HintPath>..\packages\Mapping.Common.1.0.0\lib\Mapping.Common.dll</HintPath>
@@ -68,7 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
