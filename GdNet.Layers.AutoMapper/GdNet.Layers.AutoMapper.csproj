@@ -43,23 +43,28 @@
       <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="GdNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Common.1.7.0\lib\GdNet.Common.dll</HintPath>
+      <HintPath>..\packages\GdNet.Common.1.9.0\lib\GdNet.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="GdNet.Domain, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Domain.2.0.2\lib\GdNet.Domain.dll</HintPath>
+    <Reference Include="GdNet.Domain, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GdNet.Domain.2.0.5\lib\GdNet.Domain.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.Layers.Dtos, Version=1.0.5914.27158, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\GdNet.Layers.Dtos.2.0.0\lib\GdNet.Layers.Dtos.dll</HintPath>
     </Reference>
     <Reference Include="Mapping.AutoMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Mapping.AutoMapper.1.1.1\lib\Mapping.AutoMapper.dll</HintPath>
+      <HintPath>..\packages\Mapping.AutoMapper.1.1.2\lib\Mapping.AutoMapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Mapping.Common">
-      <HintPath>..\packages\Mapping.Common.1.0.0\lib\Mapping.Common.dll</HintPath>
+    <Reference Include="Mapping.AutoMapper.Custom, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mapping.AutoMapper.1.1.2\lib\Mapping.AutoMapper.Custom.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mapping.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mapping.Common.1.0.1\lib\Mapping.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
