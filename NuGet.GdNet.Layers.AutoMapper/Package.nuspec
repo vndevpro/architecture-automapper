@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.Layers.AutoMapper</id>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <title>GdNet.Layers.AutoMapper</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -10,10 +10,15 @@
       AutoMapper extensions
     </description>
     <releaseNotes>
+      V1.5.0
+      - DefaultEditableEntityDtoMapperFactory only ignores the map on Note
+      - DefaultEditableEntityTMapperFactory now also ignores the mapon Note
+
       V1.4.0 - DefaultEditableEntityDtoMapperFactory only ignores the map on Note, State, IsAvailable
       
       Version 1.3.0
       - Update dependencies
+      
       Version 1.2.0
       - Update dependencies
     </releaseNotes>

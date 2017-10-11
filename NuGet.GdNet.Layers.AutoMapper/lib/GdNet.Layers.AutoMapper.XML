@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GdNet.Layers.AutoMapper</name>
+    </assembly>
+    <members>
+        <member name="T:GdNet.Layers.AutoMapper.DefaultEditableEntityTMapperFactory`3">
+            <summary>
+            This base mapper factory will ignore the map on some properties below: Id, CreatedAt, CreatedBy, LastModifiedAt, LastModifiedBy, Note, IsAvailable, StateLastChangedAt.
+            Those properties should be used for some additional logics.
+            </summary>
+        </member>
+        <member name="M:GdNet.Layers.AutoMapper.DefaultEditableEntityTMapperFactory`3.OnMapperCreated">
+            <summary>
+            Inherites creation from base class and configured to ignore some properties.
+            </summary>
+        </member>
+        <member name="T:GdNet.Layers.AutoMapper.DefaultEditableEntityDtoMapperFactory`2">
+            <summary>
+            This base mapper factory will ignore the map on some properties below: Note.
+            Those properties should be used for some additional logics.
+            </summary>
+        </member>
+        <member name="M:GdNet.Layers.AutoMapper.DefaultEditableEntityDtoMapperFactory`2.OnMapperCreated">
+            <summary>
+            Inherites creation from base class and configured to ignore some properties.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -64,6 +64,7 @@
   <ItemGroup>
     <Content Include="lib\GdNet.Layers.AutoMapper.dll" />
     <Content Include="lib\GdNet.Layers.AutoMapper.pdb" />
+    <Content Include="lib\GdNet.Layers.AutoMapper.XML" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
